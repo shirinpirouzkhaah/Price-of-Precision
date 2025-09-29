@@ -42,7 +42,7 @@ input_csv_path = os.path.join(Root_dir, 'SplittedData/ProjectLevel/Gerrit_Projec
 All other files remain unchanged.
 
 ### c) NewGitHubData 
-***The content of this two subfolders should be downloaded from Zenodo.***
+***The content of this subfolder should be downloaded from Zenodo.***
 
 This directory contains the newly retrieved GitHub pull request data (after September 2021).
 
@@ -56,7 +56,7 @@ Inside, you will find two subfolders containing preprocessed datasets generated 
 
 
 ### d) SplittedData
-***The content of this two subfolders should be downloaded from Zenodo.***
+***The content of this subfolder should be downloaded from Zenodo.***
 
 This directory provides the input datasets before preprocessing, with splits already applied.
 
@@ -107,7 +107,7 @@ A dir named **Code** for fine-tuning and evaluation. The replication package inc
 The Results folder contains all evaluation outputs from the experiments described in the paper. It is organized into three main parts:
 
 ### a) csvResults
-***The content of this two subfolders should be downloaded from Zenodo.***
+***The content of this subfolder should be downloaded from Zenodo.***
 
 - This subfolder stores raw CSV files of results for each study (S1, S2, S3) and each model used (e.g., CodeLLaMA, T5, CodeReviewer, OpenNMT, ChatGPT).  For example, csvResultsS1CodeLlama contains the results of the CodeLLaMA model fine-tuned under preprocessing configurations from Study 1.
 - Each CSV records detailed evaluation metrics, (EXM (Exact Match), CodeBLEU, Levenshtein distance (similarity ratio))
@@ -117,8 +117,8 @@ csvResultsS1CodeLlama/S1_P1plusP3_new_test_predictions_with_codeBLEU_10_ProjectL
 ```
 represents results of the CodeLLaMA model, fine-tuned on P1+P3 isolated preprocessing configuration with Project-level splitting, tested on the new GitHub dataset.
 
-### b) FINAL
-***The content of this two subfolders should be downloaded from Zenodo.***
+### b) FinalRatio
+***The content of this subfolder should be downloaded from Zenodo.***
 - This subfolder consolidates performance metrics into summary tables. Results are aggregated by preprocessing step, dataset size, and model performance.
 
 ### c) StatisticalTests
