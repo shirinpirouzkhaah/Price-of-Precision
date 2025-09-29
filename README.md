@@ -44,6 +44,8 @@ All other files remain unchanged.
 ### c) NewGitHubData 
 ***The content of this subfolder should be downloaded from Zenodo.***
 
+https://doi.org/10.5281/zenodo.17227729
+
 This directory contains the newly retrieved GitHub pull request data (after September 2021).
 
 Because this dataset is naturally partitioned by time, it is categorized under the TimeLevel splitting.
